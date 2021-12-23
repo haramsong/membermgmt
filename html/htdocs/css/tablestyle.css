@@ -1,0 +1,217 @@
+* {
+    border : 0;
+    margin : 0;
+}
+body {
+    text-align : center;
+    color : black;
+    margin: 50px 0;
+}
+#title_margin {
+    margin-bottom: 30px;
+    font-family: 'HY견고딕';
+}
+h1 {
+    font-family: "고도 B";
+    font-size: 50px;
+}
+a {
+    text-decoration: none;
+    color:#333;
+}
+ table,th,tr,td {
+    border: 1px solid black;
+     font-family: "LG PC";
+}
+ th {
+     background-color : #ffe8a1;
+ }
+tr:hover {background-color: #f5f5f5;}
+ul li {
+    list-style:none;
+    text-align : center;
+}
+
+#container {
+    text-align : center;
+    width : 1300px;
+    height : 600px;
+    margin : auto;
+    padding-top: 50px;
+}
+#sign_container {
+    background: white;
+}
+#main {
+    margin-top : 100px;
+    font-family : "HY견고딕";
+    font-size : 90px;
+}
+#content {
+    margin-top : 150px;
+    font-family: "LG PC";
+    font-size : 30px;
+}
+.content-icon {
+    margin : 0 40px;
+    font-size : 40px;
+
+}
+/* 회원가입 CSS */
+table {
+    margin: auto;
+}
+
+#table-container {
+    text-align: center;
+}
+#div-container {
+    margin: auto;
+    text-align: center;
+}
+#board_area {
+    position: relative;
+    text-align: center;
+    margin-top: 50px;
+}
+#sign_container {
+    margin: 0 50px;
+}
+.re_ct {font-weight:bold; color:blue;}
+
+#write_btn {
+}
+#page_num {
+    margin: 60px 0px;
+    display: inline-block;
+    text-align: center;
+}
+#page_num ul li {
+    float: left;
+    margin-left: 10px;
+    text-align: center;
+}
+.fo_re {
+    font-weight: bold;
+    color:red;
+}
+
+.status_green {
+    margin-top: 5px;
+    width : 24px;
+    height : 24px;
+    background-image: url("/image/green.png");
+    display: inline-block;
+    background-size: cover;
+}
+.status_yellow {
+    margin-top: 5px;
+    width : 24px;
+    height : 24px;
+    background-image: url("/image/yellow_warning.png");
+    display: inline-block;
+    background-size: cover;
+}
+.status_red {
+    margin-top: 5px;
+    width : 24px;
+    height : 24px;
+    background-image: url("/image/red_warning.png");
+    display: inline-block;
+    background-size: cover;
+}
+.status_gray {
+    margin-top: 5px;
+    width : 24px;
+    height : 24px;
+    background-image: url("/image/gray.png");
+    display: inline-block;
+    background-size: cover;
+}
+#button1 {
+    background-image: url("/image/user (1).png");
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+    margin-right: 35px;
+}
+#button_text1 {
+    display: none;
+}
+#button1:hover #button_text1 {
+    display: block;
+    width: 80px;
+}
+/*상세정보*/
+#button2 {
+    background-image: url("/image/memo.png");
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+    margin-right: 35px;
+}
+#button_text2 {
+    display: none;
+}
+#button2:hover #button_text2 {
+    display: block;
+    width: 80px;
+}
+/*회원권 등록*/
+#button3 {
+    background-image: url("/image/submit (1).png");
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+    margin-right: 50px;
+}
+#button_text3 {
+    display: none;
+}
+#button3:hover #button_text3 {
+    display: block;
+    width: 100px;
+}
+/*회원권 양도*/
+#button4 {
+    background-image: url("/image/give-money.png");
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+    margin-right: 50px;
+}
+#button_text4 {
+    display: none;
+}
+#button4:hover #button_text4 {
+    display: block;
+    width: 100px;
+}
+#button5 {
+    background-image: url("/image/pngegg.png");
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+    margin-right: 50px;
+}
+#button_text5 {
+    display: none;
+}
+#button5:hover #button_text5 {
+    display: block;
+    width: 80px;
+}
+#button6 {
+    background-image: url("/image/pause.png");
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+    margin-right: 50px;
+}
+#button_text6 {
+    display: none;
+}
+#button6:hover #button_text6 {
+    display: block;
+    width: 80px;
+}

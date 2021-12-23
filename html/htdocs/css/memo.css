@@ -1,0 +1,106 @@
+* {
+    border : 0;
+    margin : 0;
+}
+h1 {
+    font-family: "고도 B";
+}
+a {
+    text-decoration: none;
+    color:#333;
+}
+ul li {
+    list-style:none;
+}
+#board_write {
+    text-align: center;
+}
+#title_margin {
+    padding-bottom: 20px;
+    margin-top: 20px;
+}
+#main {
+    margin-top : 100px;
+    font-family : "HY견고딕";
+    font-size : 90px;
+}
+#content {
+    margin-top : 150px;
+    font-family: "카페24 고운밤";
+    font-size : 30px;
+}
+.content-icon {
+    margin : 0 40px;
+    font-size : 40px;
+
+}
+/* 회원가입 CSS */
+table {
+    font-family: "카페24 고운밤";
+    margin: auto;
+}
+body {
+    width : 400px;
+    height : 100%;
+}
+td {
+    font-family: "배달의민족 한나체 Air";
+    padding-left: 15px;
+}
+input {
+    border : 1px solid black;
+}
+#table-container {
+    text-align: center;
+}
+#div-container {
+    margin: auto;
+    text-align: center;
+}
+#board_write {
+    width: 400px;
+}
+#write_area {
+    width: 400px;
+}
+#in_title {
+    width: 400px;
+}
+#in_content {
+    width: 400px;
+}
+#board_area {
+    position: relative;
+    text-align: center;
+    display: inline-block;
+    margin-top: 50px;
+}
+#sign_container {
+    margin: 0 20px;
+}
+.re_ct {font-weight:bold; color:blue;}
+
+#write_btn {
+    position: absolute;
+    margin-top:20px;
+    right: 0;
+}
+#page_num {
+    font-size: 14px;
+    margin-left: 260px;
+    margin-top:30px;
+}
+#page_num ul li {
+    float: left;
+    margin-left: 10px;
+    text-align: center;
+}
+.fo_re {
+    font-weight: bold;
+    color:red;
+}
+#delete_btn {
+    padding-bottom: 60px;
+}
+.change_bg {
+}

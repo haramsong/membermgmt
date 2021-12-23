@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>회원등록</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script>
+        function resizeWindow(win)    {
+
+            var wid = win.document.body.offsetWidth + 30;
+
+            var hei = win.document.body.offsetHeight + 40;        //30 과 40은 넉넉하게 하려는 임의의 값임
+
+            win.resizeTo(wid,hei);
+
+        }
+    </script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/popup.css">
+</head>
+<body>
+<div id="sign_container">
+<div class="center-align">
+    <div class="login_box">
+        <form method="post" action="member_ok.py" name="memform">
+            <div id="table-container">
+                <div class="margin-control">
+                    <div id="title_margin">
+                    <h1 style="display: inline-block;">회원 등록</h1>
+                        <span onclick="window.close();" style="margin-left: 90px; position:absolute; display: inline-block;background-image: url('/image/exit.png'); background-size: cover; width: 30px; height: 50px;"></span>
+                    </div>
+                    <table cellspacing="0" height="470">
+                        <tr>
+                            <td align="left" width="250" ><b>이름</b></td>
+                            <td align="left" width="200"><input type="text" size="10" class="inph" name="name" id="name" placeholder="이름" required></td>
+                        </tr>
+                        <tr>
+                            <td align="left" width="250"><b>생년월일</b></td>
+                            <td align="left" width="200"><input type="text" size="10" class="inph" name="birth_date" id="birth_date" placeholder="생년월일" required></td>
+                        </tr>
+                        <tr>
+                            <td align="left" width="250"><b>성별</b></td>
+                            <td align="left" width="200">남<input type="radio" name="gender" class="inph" value="남" style="margin-left:10px"> 여 <input type="radio" name="gender" value="여"></td>
+                        </tr>
+                        <tr>
+                            <td align="left" width="250"><b>이메일</b></td>
+                            <td align="left" width="400"><input type="text" class="inph" name="email" style="margin-right: 10px" required>@<select name="emadress" class="inph" style="margin-left: 10px" required>
+                                    <option value="naver.com">naver.com</option>
+                                    <option value="nate.com">nate.com</option>
+                                    <option value="hanmail.com">hanmail.com</option>
+                                </select></td>
+                        </tr>
+                        <tr>
+                            <td align="left" width="250"><b>전화번호</b></td>
+                            <td align="left" width="200"><input type="text" size="12" class="inph" name="phone_number" placeholder="전화번호" required></td>
+                        </tr>
+                        <tr>
+                            <td align="left" width="250"><b>주소</b></td>
+                            <td align="left" width="200"><input type="text" size="35" class="inph" name="address" placeholder="주소" required></td>
+                        </tr>
+                        <tr>
+                            <td align="left" width="200"><b>차량 번호</b></td>
+                            <td align="left" width="200"><input type="text" size="15" class="inph" name="car_number" placeholder="차량 번호"></td>
+                        </tr>
+                        <tr>
+                            <td align="left" width="200"><b>락커 번호</b></td>
+                            <td align="left" width="200"><input type="text" size="5" class="inph" name="locker_num" placeholder=""></td>
+                        </tr>
+                        <tr>
+                            <td align="left" width="200"><b>락커 비밀번호</b></td>
+                            <td align="left" width="200"><input type="password" size="8" class="inph" name="locker_pw" placeholder=""></td>
+                        </tr>
+                        <tr>
+                            <td align="left" width="250"><b>리그 등급</b></td>
+                            <td align="left" width="200"><input type="text" size="2" class="inph" name="league_grade" placeholder="" required></td>
+                        </tr>
+                    </table>
+                    <div style="margin-top: 20px; text-align: center;">
+                        <button type="submit" id="button_submit" style="background-color: white; background-image: url('/image/add.png'); display:inline-block; vertical-align:bottom; width: 50px; height: 50px; background-size:cover; font-weight: bold; font-family: '배달의민족 한나체 Air'; border: none;" >
+                            <div id="button_submit_text">
+                                등 록
+                            </div>
+                        </button>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+</div>
+</body>
+</html>
